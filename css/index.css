@@ -194,8 +194,8 @@ header .navbar nav a {
   flex-direction: column;
   justify-content: space-evenly;
   margin-bottom: 20px;
-  background: #5887f9;
-  padding: 20px;
+  background-image: linear-gradient(#5887f9, #60c3ff, white);
+  padding: 20px 20px 50px 20px;
   color: white;
 }
 .top-content h2 {
@@ -216,6 +216,7 @@ header .navbar nav a {
   width: 100%;
   height: 420px;
   margin-bottom: 20px;
+  color: #1f1f1f;
 }
 .for-mentors .text-content {
   display: flex;
@@ -237,10 +238,11 @@ header .navbar nav a {
   flex-direction: row-reverse;
   justify-content: space-evenly;
   width: 100%;
-  height: 420px;
+  height: 500px;
   margin-bottom: 10px;
-  background: #5887f9;
+  background-image: linear-gradient(white, #5887f9, #60c3ff);
   color: white;
+  padding-top: 50px;
 }
 .for-mentees .text-content {
   display: flex;
