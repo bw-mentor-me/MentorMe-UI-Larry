@@ -268,7 +268,16 @@ header .navbar nav a {
   margin-right: 35%;
   height: 100px;
   align-items: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: #1f1f1f;
 }
 .join-now button {
   width: 50%;
+  background: #58b1e9;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  font-size: 2rem;
+  color: white;
 }
