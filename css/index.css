@@ -126,36 +126,77 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: "Tahoma", sans-serif;
+  width: 100%;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h3 {
+  font-size: 2.8rem;
+  padding-bottom: 10px;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
 header {
   margin-bottom: 20px;
 }
 header .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
 }
 header .navbar img {
   width: 5%;
 }
 header .navbar h1 {
   width: 80%;
-  border: 1px solid red;
-  font-size: 4rem;
+  color: #58b1e9;
+  padding: 10px;
 }
 header .navbar nav {
   display: flex;
   justify-content: space-around;
-  border: 1px solid blue;
   width: 20%;
   font-size: 2rem;
+}
+header .navbar nav a {
+  text-decoration: none;
+  color: gray;
 }
 .top-content {
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  border: 1px solid red;
   margin-bottom: 20px;
+  background: #5887f9;
+  padding: 20px;
+  color: white;
 }
 .top-content h2 {
   padding: 10px;
@@ -164,48 +205,57 @@ header .navbar nav {
   padding: 10px;
 }
 .top-content img {
-  padding: 10px;
+  margin: 10px;
   width: 40%;
   align-self: center;
+  border-radius: 10px;
 }
 .for-mentors {
   display: flex;
-  justify-content: space-between;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-  height: 300px;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 420px;
   margin-bottom: 20px;
-  border: 1px solid red;
 }
 .for-mentors .text-content {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  width: 60%;
-}
-.for-mentors img {
   width: 40%;
+}
+.for-mentors .text-img {
+  width: 40%;
+  padding: 20px;
+}
+.for-mentors .text-img img {
+  border-radius: 10px;
+  max-width: 570px;
+  margin-right: 200px;
 }
 .for-mentees {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-between;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-  height: 300px;
-  margin-bottom: 20px;
-  border: 1px solid red;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 420px;
+  margin-bottom: 10px;
+  background: #5887f9;
+  color: white;
 }
 .for-mentees .text-content {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  width: 60%;
-}
-.for-mentees img {
   width: 40%;
+}
+.for-mentees .text-img {
+  width: 40%;
+  padding: 20px;
+}
+.for-mentees .text-img img {
+  border-radius: 10px;
+  max-width: 570px;
+  margin-left: 150px;
 }
 .join-now {
   display: flex;
@@ -216,7 +266,6 @@ header .navbar nav {
   margin-right: 35%;
   height: 100px;
   align-items: center;
-  border: 1px solid red;
 }
 .join-now button {
   width: 50%;
