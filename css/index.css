@@ -126,3 +126,98 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+header {
+  margin-bottom: 20px;
+}
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+header .navbar img {
+  width: 5%;
+}
+header .navbar h1 {
+  width: 80%;
+  border: 1px solid red;
+  font-size: 4rem;
+}
+header .navbar nav {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid blue;
+  width: 20%;
+  font-size: 2rem;
+}
+.top-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 1px solid red;
+  margin-bottom: 20px;
+}
+.top-content h2 {
+  padding: 10px;
+}
+.top-content p {
+  padding: 10px;
+}
+.top-content img {
+  padding: 10px;
+  width: 40%;
+  align-self: center;
+}
+.for-mentors {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 300px;
+  margin-bottom: 20px;
+  border: 1px solid red;
+}
+.for-mentors .text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 60%;
+}
+.for-mentors img {
+  width: 40%;
+}
+.for-mentees {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 300px;
+  margin-bottom: 20px;
+  border: 1px solid red;
+}
+.for-mentees .text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 60%;
+}
+.for-mentees img {
+  width: 40%;
+}
+.join-now {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
+  height: 100px;
+  align-items: center;
+  border: 1px solid red;
+}
+.join-now button {
+  width: 50%;
+}
